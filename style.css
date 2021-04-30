@@ -1,0 +1,778 @@
+/* basic css */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+/* global css */
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+/* header css */
+
+.header {
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: none !important;
+}
+
+.img {
+    height: 125px;
+    width: 300px;
+    padding: 25px;
+    margin-left: 50px;
+}
+
+.header_img img {
+    display: block;
+    text-align: center;
+    margin-left: 160px;
+}
+
+
+.overlay {
+    background-color: rgba(255, 255, 255, 0.80);
+    height: 100%;
+    width: 100% !important;
+}
+
+.pos-relative {
+    position: relative;
+}
+
+.overlay_2 {
+    background-color: rgba(255, 255, 255, 0.66);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.heder_content {
+    margin-left: 65px;
+}
+
+.head {
+    width: 94% !important;
+    margin-left: 130px;
+}
+
+.head h1 {
+    font-family: lulo;
+    font-weight: 500;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    margin-top: 50px;
+
+}
+
+.head h3 {
+    font-weight: 600;
+    margin-bottom: 30px;
+    font-size: 27px;
+    margin-top: 16px;
+    font-family: montserrat, sans-serif;
+}
+
+.heade_btn {
+    display: block;
+    margin-top: 70px;
+    border: none;
+    outline: none;
+}
+
+.heade_btn span {
+    border: 2px solid #111;
+    display: block;
+    width: 248px;
+    text-align: center;
+    border-radius: 30px;
+    padding: 16px 0px;
+    color: #1D1E21;
+    font-weight: 500;
+    height: 53px;
+    transition: .3s;
+    margin-left: 40px;
+    font-family: Montserrat-bold;
+    font-size: 14px;
+    line-height: 19.6px;
+}
+
+.heade_btn span:hover {
+    background: #000;
+    color: #fff;
+    text-decoration: none;    
+}
+
+.header_content {
+    text-align: left;
+    width: 450px;
+    margin-top: 204px;
+
+}
+
+.header_content h1 {
+    font-family: lulo;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin-top: 167px;
+    margin-left: 40px;
+    color: #1D1E21 !important;
+}
+
+.header_content h3 {
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: 24px;
+    margin-top: 16px;
+    margin-left: 40px;
+    line-height: normal;
+    font-family: Montserrat-regular, sans-serif;
+    color: #1D1E21 !important;
+}
+
+.header_content a {}
+
+/* digital section css */
+
+.digita_content h1 {
+
+    font-family: 'lulo';
+    font-weight: 700;
+    font-size: 31px;
+    text-transform: uppercase;
+    position: relative;
+    left: 13px;
+    letter-spacing: normal;
+    top: 14px;
+    word-spacing: normal;
+}
+
+.digita_content h3 {
+
+    font-family: Montserrat-bold;
+    font-weight: normal;
+    color: #1D1E21;
+    margin-top: 54px;
+    width: 90%;
+    word-spacing: 5px;
+    margin-bottom: 22px;
+    margin-left: 13px;
+    font-size: 19px;
+    line-height: 1.4em;
+    letter-spacing: inherit;
+    padding-right: 66px
+}
+
+.digita_content p {
+    font-size: 18px;
+    line-height: normal;
+    word-spacing: normal;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-left: 13px;
+    text-align: justify;
+    width: 401px;
+    
+}
+
+.digital_section img {
+    height: 500px;
+}
+
+/* Digital content in mobile*/
+.mobile_section {
+    background-image: url("images/p2.webp");
+    height: 312px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.mobile_section h1 {
+    font-family: 'lulo';
+    text-align: left;
+    font-size: 21px;
+    margin-left: 85px;
+    width: 126px;
+    margin-top: 93px;
+}
+
+.digita_content_mobile h3 {
+    font-family: Montserrat-bold;
+    font-weight: normal;
+    color: #1D1E21;
+    margin-top: 20px;
+    width: 90%;
+    word-spacing: 5px;
+    margin-bottom: 22px;
+    margin-left: 13px;
+    font-size: 19px;
+    line-height: 1.4em;
+    letter-spacing: inherit;
+    padding-right: 50px;
+    text-align: left;
+    margin-left: 35px;
+}
+
+.digita_content_mobile p {
+    font-size: 16px;
+    line-height: normal;
+    word-spacing: normal;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-left: 36px;
+    text-align: left;
+    width: 309px;
+    
+}
+
+/* Digital content in mobile*/
+
+
+/* icon box css */
+
+.icon_box {
+    margin-top: 110px;
+}
+
+.icon_box img {
+    margin-bottom: -20px;
+}
+
+.icon_box h3 {
+    font-family: 'lulo';
+    font-size: 18px;
+    letter-spacing: normal;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.icon_box p {
+    font-size: 16px;    
+    line-height: normal;
+    word-spacing: normal;
+    font-weight: 400;
+}
+
+.number_title h3 {
+    font-family: Montserrat-bold;
+    font-size: 32px;
+    letter-spacing: normal;
+    word-spacing: normal;
+    font-weight: 700;
+    margin-top: 80px !important;
+}
+
+.number_1 {
+    width: 400px !important;
+    margin-left: 20px;
+}
+
+.number_1 span {
+    font-family: lulo;
+    color: #ffbab3;
+    text-align: left;
+    font-size: 115px;
+}
+
+.number_1 p {
+    width: 53%;
+    font-family: Montserrat-bold;
+    font-size: 19px;
+    word-spacing: normal;
+    position: absolute;
+    margin-top: 75px;
+    line-height: normal;
+    color: #1D1E21;
+    text-align: left;
+    margin-left: -20px !important;
+}
+
+.number_2 span {
+    font-family: lulo;
+    color: #dabaff;
+    text-align: left;
+    font-size: 115px;
+    position: relative;
+}
+
+.number_2 p {
+    width: 60%;
+    font-family: Montserrat-bold;
+    font-size: 20px;
+    word-spacing: 0px;
+    position: absolute;
+    line-height: 1.2em;
+    color: #1D1E21;
+    text-align: left;
+    margin-top: 75px;
+    margin-left: -20px;
+}
+
+.number_3 span {
+    font-family: lulo;
+    color: #82e6ea;
+    text-align: left;
+    font-size: 115px;
+    position: relative;    
+}
+
+.number_3 p {
+    width: 30%;
+    font-family: Montserrat-bold;
+    font-size: 20px;
+    word-spacing: 7px;
+    position: absolute;
+    line-height: 1.2em;
+    color: #1D1E21;
+    text-align: left;
+    margin-top: 75px;
+    margin-left: -20px;
+}
+
+.number_btn {
+    margin: auto;
+    margin-top: 75px;
+    margin-bottom: 45px;
+}
+
+.number_btn span {
+    border: 2px solid #111;
+    border-radius: 24px;
+    display: block;
+    padding: 10px 45px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+    font-weight: bold;
+    font-family: Montserrat-bold;
+    font-size: 14px;
+    line-height: 19.6px;
+    letter-spacing: normal;
+    word-spacing: normal;
+    font-weight: 500;
+}
+
+.number_btn span:hover {
+    color: #fff;
+    background: #111;
+}
+
+
+/* code section css*/
+.veja {
+    margin-top: 115px;
+    font-family: Montserrat-bold;
+}
+
+.code_seciton h2 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.qr_images {
+    margin-bottom: -40px;
+
+}
+
+/*.qr_2 img {
+    margin-left: 51px;
+}*/
+
+.qr-area {
+    margin: 5rem !important;
+}
+
+
+/* contact css */
+
+.contact_left {
+    background: #1D1E21;
+}
+
+.contact_left h6 {
+    font-family: Montserrat-bold;
+    margin-top: 102px;
+    margin-bottom: 25px;
+    font-size: 19px;
+    word-spacing: normal;
+    line-height: normal;
+    font-weight: 700;
+}
+
+.input_field {
+    background-color: transparent;
+}
+
+.input_field_name {
+    width: 22%;
+    margin: auto;
+    text-align: left;
+}
+
+.input_field_name label {
+    
+}
+
+
+.input_field_name input {
+    width: 100%;
+    box-sizing: border-box;
+    background: #1D1E21;
+    border: none;
+    border-bottom: 3px solid #fff;
+    padding-left: 5px;
+}
+
+.contact_left p:first-child {
+    width: 35%;
+    margin: auto;
+}
+
+
+.contact_left input:hover {
+    border-bottom: .5px solid #373B4D;
+}
+
+.contact_left input:focus {
+    color: #fff;
+    outline: none;
+}
+
+.contact_btn {
+    display: block;
+    margin-top: 30px;
+    border: none;
+    text-decoration: none;
+}
+
+.contact_btn span {
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 22px;
+    padding: 8px 40px;
+    height: 46px;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    font-family: Montserrat-bold;
+    font-size: 14px;
+    letter-spacing: normal;
+    word-spacing: normal;
+    font-weight: 500;
+}
+
+.contact_btn span:hover {
+    background: #323232;
+    border: 2px solid transparent;
+    color: #fff;
+}
+
+.bottom_p {
+    margin-top: 40px;
+    font-size: 16px;    
+    line-height: normal;
+    font-weight: 400;
+}
+
+.bottom_p span {
+    margin: 0px 15px;
+}
+
+.contact_right {
+    background: #EE9C83;
+}
+
+
+/* footer css */
+
+.footer-copyright p {
+    margin-top: 7px;
+    font-size: 16px;
+    
+    line-height: normal;
+}
+
+.icon_mid {
+    max-width: 1700px;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .digital_section_mobile {
+        display: none;
+    }
+
+    .img {
+        height: 100px;
+        width: 300px;
+        padding: 25px;
+        margin-left: 10px;
+    }
+
+    .logo_header {
+        background-color: #FDFDFD;
+        text-align: left;
+        margin-left: 0px;
+    }
+
+    .header_content h1 {
+        font-family: lulo;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 1.2;
+        text-transform: uppercase;
+        margin-top: 167px;
+        margin-left: 15px;
+        color: #1D1E21 !important;
+    }
+
+    .header_content h3 {
+        font-weight: normal;
+        margin-bottom: -40px;
+        font-size: 19px;
+        margin-top: 16px;
+        margin-left: 15px;
+        line-height: normal;
+        font-family: Montserrat-regular, sans-serif;
+        color: #1D1E21 !important;
+    }
+
+    .heade_btn span {
+        border: 2px solid #111;
+        display: block;
+        width: 193px;
+        text-align: center;
+        border-radius: 30px;
+        padding: 9px 0px;
+        color: #1D1E21;
+        font-weight: 500;
+        height: 42px;
+        transition: .3s;
+        margin-left: 15px;
+        font-family: Montserrat-bold;
+        font-size: 14px;
+        line-height: 19.6px;
+        margin-bottom: 100px;
+    }
+
+    .icon_box {
+        margin-top: 3px;
+    }
+
+    .number_title h3 {
+        font-family: Montserrat-bold;
+        font-size: 32px;
+        letter-spacing: normal;
+        word-spacing: normal;
+        font-weight: 700;
+        margin-top: 59px !important;
+        margin-bottom: 100px !important;
+    }
+
+    .number_1 {
+        width: 400px !important;
+        margin-left: 20px;
+        height: 125px;
+    }
+
+    .number_2 {
+        width: 400px !important;
+        margin-left: 0px;
+        height: 125px;
+    }
+
+    .number_3 {
+        width: 400px !important;
+        margin-left: 0px;
+        height: 125px;
+        margin-bottom: 10px;
+    }
+
+
+
+    .number_1 span {
+        font-family: lulo;
+        color: #FFEAE8;
+        text-align: left;
+        font-size: 100px;
+        float: left;
+        margin-left: -30px;
+        margin-right: 45px;
+    }
+
+    .number_2 span {
+        font-family: lulo;
+        color: #ECDBFF;
+        text-align: left;
+        font-size: 100px;
+        float: left;
+        margin-left: -10px;
+        margin-right: 30px;
+    }
+
+    .number_3 span {
+        font-family: lulo;
+        color: #D4EDEE;
+        text-align: left;
+        font-size: 100px;
+        float: left;
+        margin-left: -10px;
+        margin-right: 30px;
+    }
+
+    .number_1 p {
+        width: 70%;
+        font-family: Montserrat-bold;
+        font-size: 20px;
+        word-spacing: 7px;
+        position: absolute;
+        line-height: 1.2em;
+        color: #1D1E21;
+        text-align: left;
+        margin-top: 75px;
+    }
+
+
+
+    .number_2 p {
+        width: 70%;
+        font-family: Montserrat-bold;
+        font-size: 20px;
+        word-spacing: 7px;
+        position: absolute;
+        line-height: 1.2em;
+        color: #1D1E21;
+        text-align: left;
+        margin-top: 50px;
+        margin-left: -28px;
+    }
+
+    .number_3 p {
+        width: 50%;
+        font-family: Montserrat-bold;
+        font-size: 20px;
+        word-spacing: 7px;
+        position: absolute;
+        line-height: 1.2em;
+        color: #1D1E21;
+        text-align: left;
+        margin-top: 50px;
+        margin-left: -28px;
+    }
+
+    .number_btn {
+        margin: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-top: 75px;
+        margin-bottom: 25px;
+    }
+
+
+    .contact_left label {
+        display: block;
+        margin-right: 70%;
+        font-family: montserrat;
+        margin-top: 14px;
+    }
+
+    .qr_image {
+        display: none;
+    }
+
+    .veja {
+        margin-top: -75px;
+        font-family: Montserrat-bold;
+    }
+
+    .input_field_name {
+        width: 90%;
+        margin: auto;
+        text-align: left;
+    }
+
+    .contact_right {
+        background: white;
+    }
+}
+
+
+@font-face {
+    src: url("fonts/Montserrat-Regular.ttf");
+    font-family: Montserrat-regular;
+}
+
+@font-face {
+    src: url("fonts/PaytoneOne-Regular.ttf");
+    font-family: pay;
+}
+
+@font-face {
+    src: url("fonts/Righteous-Regular.ttf");
+    font-family: pay_2;
+}
+
+@font-face {
+    src: url("fonts/Lulo-Clean-W01-One-Bold.ttf");
+    font-family: lulo;
+}
+
+@font-face {
+    src: url("fonts/Montserrat-Light.ttf");
+    font-family: Montserrat;
+}
+
+@font-face {
+    src: url("fonts/Montserrat-Bold.ttf");
+    font-family: Montserrat-bold;
+}
+
+@font-face {
+    font-family: "Avenir";
+    src: url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/edefe737-dc78-4aa3-ad03-3c6f908330ed.eot?#iefix") format("eot"), url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/0078f486-8e52-42c0-ad81-3c8d3d43f48e.woff2") format("woff2"), url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/908c4810-64db-4b46-bb8e-823eb41f68c0.woff") format("woff"), url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/4577388c-510f-4366-addb-8b663bcc762a.ttf") format("truetype"), url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/b0268c31-e450-4159-bfea-e0d20e2b5c0c.svg#b0268c31-e450-4159-bfea-e0d20e2b5c0c") format("svg");
+}
+
+@font-face {
+    src: url("fonts/avera-lt.woff2");
+    
+}
+
+@font-face {
+    font-family: "Lulo-Clean-W01-One-Bold";
+    src: url("fonts/aee74cb3-c913-4b54-9722-6001c92325f2.woff2");
+}
